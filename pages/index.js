@@ -4,7 +4,7 @@ import Nav from '../components/Nav';
 const index = () => {
   return (
 <>
-<section className='h-screen bg-purple-800'>
+<section className='h-screen bg-green-700'>
 <Nav />
 <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
 <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
