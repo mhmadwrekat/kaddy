@@ -73,7 +73,7 @@ src='./assest/logo4.jpg'>
                 <ul class="flex flex-col md:flex-row text-teal-600 md:space-x-0 md:mt-0 md:text-sm md:font-medium text-center">
 <div className="px-auto">
 
-                <button className="px-4 py-2 bg-teal-600 rounded-full">
+                <button className="px-5 py-1 bg-teal-600 rounded-full">
     <a href="#Skills" class="text-xs cursor-grab hover:scale-110 font-bold block py-2 pr-4 text-white pl-3  hover:text-gray-200 md:border-0 md:p-0">
     أطلب الآن
     </a>
