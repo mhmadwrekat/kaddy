@@ -40,16 +40,19 @@ src='./assest/logo4.jpg'>
       </div>
 
                     <div class="hidden justify-between items-center w-full md:flex md:w-auto md:order-2" id="mobile-menu-4">
-                        <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 text-teal-600 md:text-sm md:font-medium">
+                        <ul class=" flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 text-teal-600 md:text-sm md:font-medium">
                         <li>
+                                
 <button className="px-3 py-2 bg-teal-600 rounded-full ">
     <a href="#Skills" class="cursor-grab hover:scale-110 font-bold block pr-4 pl-3 text-white hover:text-gray-200 md:border-0 md:p-0">
 أطلب الآن
     </a>
 </button>
+
 </li>
                                 <li>
 <button className="px-3 py-2">
+
     <a href="#Projects" class="cursor-grab hover:scale-110 font-bold block py-2 pr-4 pl-3  hover:text-teal-900 md:border-0 md:p-0">
     من نحن ؟
     </a>
@@ -68,11 +71,15 @@ src='./assest/logo4.jpg'>
             </nav>
             <div translate='no' class='hidden mobile-menu md:hidden w-full bg-white opacity-80 border-gray-200'>
                 <ul class="flex flex-col md:flex-row text-teal-600 md:space-x-0 md:mt-0 md:text-sm md:font-medium text-center">
-                <button className="px-3 py-2 bg-teal-600 rounded-full">
+<div className="px-auto">
+
+                <button className="px-4 py-2 bg-teal-600 rounded-full">
     <a href="#Skills" class="text-xs cursor-grab hover:scale-110 font-bold block py-2 pr-4 text-white pl-3  hover:text-gray-200 md:border-0 md:p-0">
     أطلب الآن
     </a>
 </button>
+</div>
+
                 <button>
     <a href="#Projects" class="text-xs cursor-grab hover:scale-110 font-bold block py-2 pr-4 pl-3  hover:text-teal-800 md:border-0 md:p-0">
     من نحن ؟
