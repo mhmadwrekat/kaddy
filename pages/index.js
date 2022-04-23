@@ -7,7 +7,7 @@ const index = () => {
   const customAnimation = keyframes`
   from {
     opacity: 0;
-    transform: translate3d( -250px, -250px, 0);
+    transform: translate3d( 350px, 10px, 0);
   }
   to {
     opacity: 1;
@@ -24,27 +24,33 @@ const index = () => {
 
 
 
-<Fade cascade>
+<Slide cascade>
+<Slide>
 <p className="mx-5 font-sans text-5xl font-bold text-gray-200">Kaddy Oil</p>
+</Slide>
 <br></br>
 <br></br>
+<Slide>
 <p className="mx-5 font-sans text-xl font-bold text-gray-200">
 زيت كادي هو مجموعة من الزيوت والفيتامينات الطبيعية للعناية بالاظافر بالطريقة الصحيحة
 </p>
+</Slide>
 <br></br>
+<Slide>
 <p className="mx-5 font-sans text-xl font-bold text-gray-200">Kaddy Oil is a group of natural oils and vitamins to take care of nails in the right way</p>
+</Slide>
+
+</Slide>
+<Reveal delay={3000} keyframes={customAnimation}>
 <div>
 <br></br><br></br><br></br><br></br>
 <br></br><br></br><br></br>
-<Reveal keyframes={customAnimation}>
 <button class="
 font-mono bg-amber-500 hover:bg-amber-600 text-white font-bold py-8 px-20 border-b-4 border-amber-600 hover:border-amber-600 rounded-xl text-3xl">
  !! إبدأ
 </button>
-</Reveal>
 </div>
-</Fade>
-
+</Reveal>
 
 
 
