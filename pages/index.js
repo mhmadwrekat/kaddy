@@ -27,11 +27,11 @@ const index = () => {
 <Fade cascade>
 <p className="font-sans text-5xl font-bold text-gray-200">Kaddy Oil</p>
 <br></br>
-<p className="font-sans text-3xl font-bold text-gray-200">
+<p className="font-sans text-xl font-bold text-gray-200">
 زيت كادي هو مجموعة من الزيوت والفيتامينات الطبيعية للعناية بالاظافر بالطريقة الصحيحة
 </p>
 <br></br>
-<p className="font-sans text-3xl font-bold text-gray-200">Kaddy Oil is a group of natural oils and vitamins to take care of nails in the right way</p>
+<p className="font-sans text-xl font-bold text-gray-200">Kaddy Oil is a group of natural oils and vitamins to take care of nails in the right way</p>
 <div>
 <br></br><br></br><br></br><br></br>
 <br></br><br></br><br></br><br></br>
