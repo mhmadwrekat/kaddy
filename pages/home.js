@@ -1,12 +1,21 @@
 import React from 'react';
 import Nav from '../components/Nav';
-const Home = () => {
+import Main from '../components/Main';
+const home = () => {
   return (
 <>
 <Nav />
+<Main />
+
+
+
+
+
+
+
 
 </>
   )
 }
 
-export default Home
+export default home
