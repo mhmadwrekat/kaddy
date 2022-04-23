@@ -36,7 +36,7 @@ src='./assest/logo2.jpg'></img>
 <Link href="/home">
 <button translate='no'
 class="animate-bounce
-font-mono bg-teal-600 hover:bg-teal-600 text-white font-bold py-5 px-20 border-b-4 border-teal-800 hover:border-teal-900 rounded-xl shadow-2xl text-3xl">
+font-mono bg-teal-600 hover:bg-teal-600 text-white font-bold py-3 px-16 border-b-4 border-teal-800 hover:border-teal-900 rounded-xl shadow-2xl text-2xl">
 Start!
 </button>
 </Link>
