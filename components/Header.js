@@ -21,19 +21,15 @@ const Header = () => {
   return (
 <>
 <nav class="bg-white opacity-80 border-gray-200 px-2 sm:px-4 py-3 rounded" translate='no'>
-                <div class="container flex flex-wrap justify-between items-center mx-auto">
-                    <div class="flex md:order-0">
-                        <a href="./assest/wrekatt.pdf">
+                <div class="mx-auto container flex flex-wrap md:justify-between lg:justify-between justify-center items-center ...">
 <img 
-className="w-6/12 rounded-xl "
+className="w-5/12 md:w-3/12 lg:w-40 rounded-xl "
 src='./assest/logo4.jpg'>
 </img>
-                        </a>
-                        <button class="mobile-menu-button" type="button" >
+                   {/*     <button class="mobile-menu-button" type="button" >
                             <span class="sr-only">Open main menu</span>
                             <svg class="text-black md:hidden flex w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
-                        </button>                     
-                    </div>                    
+                        </button>*/}                      
       <div>
                        
                     
@@ -43,7 +39,7 @@ src='./assest/logo4.jpg'>
                         <ul class=" flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 text-teal-600 md:text-sm md:font-medium">
                         <li>
                                 
-<button className="px-3 py-2 bg-teal-600 rounded-full ">
+<button className="animate-pulse px-3 py-2 bg-teal-600 rounded-full ">
     <a href="#Skills" class="cursor-grab hover:scale-110 font-bold block pr-4 pl-3 text-white hover:text-gray-200 md:border-0 md:p-0">
 أطلب الآن
     </a>
@@ -69,32 +65,81 @@ src='./assest/logo4.jpg'>
                     </div>
                 </div>
             </nav>
-            <div translate='no' class='hidden mobile-menu md:hidden w-full bg-white opacity-80 border-gray-200'>
-                <ul class="flex flex-col md:flex-row text-teal-600 md:space-x-0 md:mt-0 md:text-sm md:font-medium text-center">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div translate='no' class='mobile-menu md:hidden w-full bg-white opacity-80 border-gray-200'>
+                <ul class="flex flex-row justify-between md:flex-row text-teal-600 text-center">
+
+
+                <button className="my-1">
+    <a href="#Projects" class="text-xs cursor-grab hover:scale-110 font-bold block py-2 pr-4 pl-3 hover:text-teal-800 md:border-0 md:p-0">
+    من نحن ؟
+    </a>
+</button>
 <div className="px-auto">
 
-                <button className="px-5 py-1 bg-teal-600 rounded-full">
+                <button className="animate-pulse   px-5 py-0.5 my-1 bg-teal-600 rounded-full hover:bg-teal-800">
     <a href="#Skills" class="text-xs cursor-grab hover:scale-110 font-bold block py-2 pr-4 text-white pl-3  hover:text-gray-200 md:border-0 md:p-0">
     أطلب الآن
     </a>
 </button>
 </div>
-
-                <button>
-    <a href="#Projects" class="text-xs cursor-grab hover:scale-110 font-bold block py-2 pr-4 pl-3  hover:text-teal-800 md:border-0 md:p-0">
-    من نحن ؟
-    </a>
-</button>
-
-                    <button>
+                    <button className="my-1">
     <a href="#Message" class="cursor-grab text-xs hover:scale-110 font-bold block py-2 pr-4 pl-3 hover:text-teal-800 md:border-0 md:p-0">
     تواصل معنا
     </a>
 </button>
                 </ul>
+
+ 
             </div>
 </>
     )
 }
 
 export default Header
+/*
+hover:animate-spin
+
+*/

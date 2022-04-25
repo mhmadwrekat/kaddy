@@ -3,6 +3,8 @@ import React from 'react';
 import { keyframes } from "@emotion/react";
 import Link from "next/link";
 import Nav from '../components/Nav';
+import Main from '../components/Main';
+import Footer from "../components/Footer";
 const index = () => {
   const customAnimation = keyframes`
   from {
@@ -16,6 +18,20 @@ const index = () => {
   `;
   return (
 <>
+
+<Nav />
+<Main />
+<Footer />
+
+
+
+
+
+</>  
+)
+}
+export default index
+/*
 <section className='bg-white'>
 <Nav />
 <br></br>
@@ -45,10 +61,7 @@ Start!
 <br></br>
 </div>
 </section>
-</>  
-)
-}
-export default index
+*/
 /*
 <Fade cascade>
   <p>I enter first...</p>

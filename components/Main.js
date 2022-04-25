@@ -7,6 +7,20 @@ const Main = () => {
 
 <Header />
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </section>
 
 </>
