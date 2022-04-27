@@ -6,13 +6,23 @@ const PUBLIC_KEY = process.env.NEXT_PUBLIC_EMAIL_PUBLIC_KEY;
 const TEMPLATE_ID = process.env.NEXT_PUBLIC_EMAIL_TEMPLATE_ID;
 
 const Footer = () => {
-  const form = useRef();
-  const handelSubscribe = (event) => {
+  const formMobile = useRef();
+  const handelSubscribeMobile = (event) => {
   event.preventDefault();
   const subNumber = event.target.number.value ;
   console.log("NNNNN -> ",subNumber);
   swal("!تم بنجاح" , "سوف يتم التواصل معك من خلال واتس اب", "success");
-  emailjs.sendForm(`${SERVICE_ID}`, `${TEMPLATE_ID}`, form.current, `${PUBLIC_KEY}`);
+  emailjs.sendForm(`${SERVICE_ID}`, `${TEMPLATE_ID}`, formMobile.current, `${PUBLIC_KEY}`);
+  event.target.reset() ;
+}
+
+const formDesktop = useRef();
+const handelSubscribeDesktop = (event) => {
+  event.preventDefault();
+  const subNumber = event.target.number.value ;
+  console.log("NNNNN -> ",subNumber);
+  swal("!تم بنجاح" , "سوف يتم التواصل معك من خلال واتس اب", "success");
+  emailjs.sendForm(`${SERVICE_ID}`, `${TEMPLATE_ID}`, formDesktop.current, `${PUBLIC_KEY}`);
   event.target.reset() ;
 }
 return (
@@ -40,7 +50,7 @@ className='w-6 h-6 mt-0.5 fill-current cursor-alias lg:w-7 lg:h-7'/></a>
 
 */}
     <div className='block md:hidden lg:hidden'>
-      <form ref={form} onSubmit={handelSubscribe} >
+      <form ref={formMobile} onSubmit={handelSubscribeMobile} >
         <div class="grid md:grid-cols-3 gird-cols-1 gap-4 justify-center items-center">
           <div class="md:ml-auto md:mb-6">
             <p class="">
@@ -86,7 +96,7 @@ className='w-6 h-6 mt-0.5 fill-current cursor-alias lg:w-7 lg:h-7'/></a>
   DESKTOP FORM
 */}
 <div className='hidden md:block lg:block'>
-      <form ref={form} onSubmit={handelSubscribe}>
+      <form ref={formDesktop} onSubmit={handelSubscribeDesktop}>
         <div class="grid md:grid-cols-3 gird-cols-1 gap-4 justify-center items-center">
           <div class="md:ml-auto md:mb-6">
           <button type="submit" class="inline-block px-6 py-2 border-2 bg-teal-700 border-teal-500 text-white font-medium text-xs leading-tight uppercase rounded hover:bg-white hover:text-teal-700 hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out">
@@ -145,7 +155,7 @@ className='w-6 h-6 mt-0.5 fill-current cursor-alias lg:w-7 lg:h-7'/></a>
       <p>
         زيت كادي هو الحل الأمثل للتخلص من مشاكل الأظافر الضعيفة والمتكسرة, كما يعمل على 
         نمو الأظافر بشكل سريع جداً, غني بالفيتامينات النقية
-        ويحتوي على فيتامين ( ي ),
+        ويحتوي على فيتامين ( ي )
        <br></br>
        ❤️ولا يبطل الوضوء 
       </p>
