@@ -22,8 +22,8 @@ const Footer = () => {
     text: '!سوف يتم التواصل معك من خلال واتس اب',
     icon: 'success',
     imageUrl: './assest/logo4.jpg',
-    imageWidth: 300,
-    imageHeight: 150,
+    imageWidth: 250,
+    imageHeight: 100,
     imageAlt: 'kaddy oil',
 
   })
@@ -45,8 +45,8 @@ const handelSubscribeDesktop = (event) => {
     icon: 'success',
     text: '!سوف يتم التواصل معك من خلال واتس اب',
     imageUrl: './assest/logo4.jpg',
-    imageWidth: 300,
-    imageHeight: 150,
+    imageWidth: 250,
+    imageHeight: 100,
     imageAlt: 'kaddy oil',
   })
   emailjs.sendForm(`${SERVICE_ID}`, `${TEMPLATE_ID}`, formDesktop.current, `${PUBLIC_KEY}`);
