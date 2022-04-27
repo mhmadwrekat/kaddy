@@ -2,34 +2,21 @@ import React, { useRef, useState, useEffect } from "react";
 import swal from 'sweetalert';
 import emailjs from '@emailjs/browser';
 const SERVICE_ID = process.env.NEXT_PUBLIC_EMAIL_SERVICE_ID;
-const USER_ID = process.env.NEXT_PUBLIC_EMAIL_USER_ID;
+const PUBLIC_KEY = process.env.NEXT_PUBLIC_EMAIL_PUBLIC_KEY;
 const TEMPLATE_ID = process.env.NEXT_PUBLIC_EMAIL_TEMPLATE_ID;
 
 const Footer = () => {
   const form = useRef();
-
   const handelSubscribe = (event) => {
   event.preventDefault();
   const subNumber = event.target.number.value ;
   console.log("NNNNN -> ",subNumber);
   swal("!تم بنجاح" , "سوف يتم التواصل معك من خلال واتس اب", "success");
-  emailjs.sendForm(`${SERVICE_ID}`, `${TEMPLATE_ID}`, form.current, `${USER_ID}`);
-  event.target.reset();
+  emailjs.sendForm(`${SERVICE_ID}`, `${TEMPLATE_ID}`, form.current, `${PUBLIC_KEY}`);
+  event.target.reset() ;
 }
-
-
-
-
-
-
-
-
-
-
 return (
 <>
-
-
 <footer class="text-center bg-white text-teal-600 bg-gradient-to-r from-white to-teal-100 ...">
   <div class="container px-6">
     <div class="flex justify-center gap-x-12 py-6">
@@ -48,15 +35,12 @@ data-tippy-content="Instagram">
 className='w-6 h-6 mt-0.5 fill-current cursor-alias lg:w-7 lg:h-7'/></a>
     </div>
 
-
-
-
 {/*
   MOBILE FORM
 
 */}
     <div className='block md:hidden lg:hidden'>
-      <form onSubmit={handelSubscribe} >
+      <form ref={form} onSubmit={handelSubscribe} >
         <div class="grid md:grid-cols-3 gird-cols-1 gap-4 justify-center items-center">
           <div class="md:ml-auto md:mb-6">
             <p class="">
@@ -102,7 +86,7 @@ className='w-6 h-6 mt-0.5 fill-current cursor-alias lg:w-7 lg:h-7'/></a>
   DESKTOP FORM
 */}
 <div className='hidden md:block lg:block'>
-      <form onSubmit={handelSubscribe}>
+      <form ref={form} onSubmit={handelSubscribe}>
         <div class="grid md:grid-cols-3 gird-cols-1 gap-4 justify-center items-center">
           <div class="md:ml-auto md:mb-6">
           <button type="submit" class="inline-block px-6 py-2 border-2 bg-teal-700 border-teal-500 text-white font-medium text-xs leading-tight uppercase rounded hover:bg-white hover:text-teal-700 hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out">
