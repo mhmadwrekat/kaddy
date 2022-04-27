@@ -4,14 +4,14 @@ import emailjs from '@emailjs/browser';
 const SERVICE_ID = process.env.NEXT_PUBLIC_EMAIL_SERVICE_ID;
 const PUBLIC_KEY = process.env.NEXT_PUBLIC_EMAIL_PUBLIC_KEY;
 const TEMPLATE_ID = process.env.NEXT_PUBLIC_EMAIL_TEMPLATE_ID;
+//  swal("!تم بنجاح" , "سوف يتم التواصل معك من خلال واتس اب", "success");
 
 const Footer = () => {
   const formMobile = useRef();
   const handelSubscribeMobile = (event) => {
   event.preventDefault();
   const subNumber = event.target.number.value ;
-  console.log("NNNNN -> ",subNumber);
-  swal("!تم بنجاح" , "سوف يتم التواصل معك من خلال واتس اب", "success");
+  swal("Success", "Thank You For Your Feedback!!", "success");
   emailjs.sendForm(`${SERVICE_ID}`, `${TEMPLATE_ID}`, formMobile.current, `${PUBLIC_KEY}`);
   event.target.reset() ;
 }
@@ -20,8 +20,7 @@ const formDesktop = useRef();
 const handelSubscribeDesktop = (event) => {
   event.preventDefault();
   const subNumber = event.target.number.value ;
-  console.log("NNNNN -> ",subNumber);
-  swal("!تم بنجاح" , "سوف يتم التواصل معك من خلال واتس اب", "success");
+  swal("Success", "Thank You For Your Feedback!!", "success");
   emailjs.sendForm(`${SERVICE_ID}`, `${TEMPLATE_ID}`, formDesktop.current, `${PUBLIC_KEY}`);
   event.target.reset() ;
 }
