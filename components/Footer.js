@@ -56,22 +56,20 @@ const Footer = () => {
           <div class="flex justify-center gap-x-12 py-6">
             <a href="https://wa.me/+962788818125" data-tippy-content="WhatsApp">
               <img src='./assest/whatsapp.png'
-                className='w-6 h-6 fill-current lg:w-7 lg:h-7 hover:scale-125 cursor-alias' />
+                className='w-6 h-6 fill-current lg:w-7 lg:h-7 hover:scale-125 cursor-alias animate-spin' />
             </a>
             <a className="pb-0.5 rounded-full hover:scale-125" href="https://www.facebook.com/Kaddy-oil-919674034765987"
               data-tippy-content="Facebook">
               <img src='./assest/facebook.png'
-                className='w-6 h-6 mt-0 lg:w-7 lg:h-7 fill-curren cursor-alias' />
+                className='w-6 h-6 mt-0 lg:w-7 lg:h-7 fill-curren cursor-alias animate-spin' />
             </a>
             <a className="rounded-full hover:scale-125" href="https://www.instagram.com/kaddy_oil/?utm_source=qr"
               data-tippy-content="Instagram">
               <img src='./assest/instagram.png'
-                className='w-6 h-6 mt-0.5 fill-current cursor-alias lg:w-7 lg:h-7' /></a>
+                className='w-6 h-6 mt-0.5 animate-spin fill-current cursor-alias lg:w-7 lg:h-7' /></a>
           </div>
-          {/*
-  MOBILE FORM
-
-*/}
+          {/* MOBILE FORM */}
+          {/* MOBILE FORM */}
           <div className='block md:hidden lg:hidden'>
             <form ref={formMobile} onSubmit={handelSubscribeMobile} >
               <div class="grid md:grid-cols-3 gird-cols-1 gap-4 justify-center items-center">
@@ -101,6 +99,7 @@ const Footer = () => {
                 rounded
                 transition
                 ease-in-out
+                text-center
                 m-0
                 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                     id="exampleFormControlInput1"
@@ -115,9 +114,8 @@ const Footer = () => {
               </div>
             </form>
           </div>
-          {/*
-  DESKTOP FORM
-*/}
+          {/* DESKTOP FORM */}
+          {/* DESKTOP FORM */}
           <div className='hidden md:block lg:block'>
             <form ref={formDesktop} onSubmit={handelSubscribeDesktop}>
               <div class="grid md:grid-cols-3 gird-cols-1 gap-4 justify-center items-center">
@@ -144,6 +142,7 @@ const Footer = () => {
                 rounded
                 transition
                 ease-in-out
+                text-center
                 text-sm
                 m-0
                 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
@@ -167,7 +166,7 @@ const Footer = () => {
               نمو الأظافر بشكل سريع جداً, غني بالفيتامينات النقية
               ويحتوي على فيتامين ( ي )
               <br></br>
-              ولا يبطل الوضوء
+              لا يبطل الوضوء
             </p>
           </div>
           <section class="flex flex-wrap items-center justify-center">

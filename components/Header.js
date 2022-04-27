@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Reveal, Fade, Slide } from "react-awesome-reveal";
 
 const Header = () => {
 
@@ -37,15 +38,18 @@ src='./assest/logo4.jpg'>
 
                     <div class="hidden justify-between items-center w-full md:flex md:w-auto md:order-2" id="mobile-menu-4">
                         <ul class=" flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 text-teal-600 md:text-sm md:font-medium">
-                        <li>
-                                
-<button className="animate-pulse px-3 py-2 bg-teal-600 rounded-full ">
+                        <Slide cascade triggerOnce>
+                        <Slide>
+                        <li>                                
+<button className="px-3 py-2 bg-teal-600 rounded-full animate-bounce ">
     <a href="#Skills" class="cursor-grab hover:scale-110 font-bold block pr-4 pl-3 text-white hover:text-gray-200 md:border-0 md:p-0">
 أطلب الآن
     </a>
 </button>
 
 </li>
+</Slide>
+<Slide>
                                 <li>
 <button className="px-3 py-2">
 
@@ -54,6 +58,8 @@ src='./assest/logo4.jpg'>
     </a>
 </button>
 </li>
+</Slide>
+<Slide>
 <li>
 <button className="px-3 py-2">
     <a href="#Message" class="cursor-grab hover:scale-110 font-bold block py-2 pr-4 pl-3  hover:text-teal-900 md:border-0 md:p-0">
@@ -61,6 +67,8 @@ src='./assest/logo4.jpg'>
     </a>
 </button>
                                 </li>
+                </Slide>
+</Slide>
                         </ul>
                     </div>
                 </div>
@@ -111,25 +119,33 @@ src='./assest/logo4.jpg'>
             <div translate='no' class='mobile-menu md:hidden w-full bg-white opacity-80 border-gray-200'>
                 <ul class="flex flex-row justify-between md:flex-row text-teal-600 text-center">
 
-
+                <Slide cascade triggerOnce>
+                <Slide>
                 <button className="my-1">
     <a href="#Projects" class="text-xs cursor-grab hover:scale-110 font-bold block py-2 pr-4 pl-3 hover:text-teal-800 md:border-0 md:p-0">
     من نحن ؟
     </a>
 </button>
+</Slide>
+<Slide>
 <div className="px-auto">
 
-                <button className="animate-pulse   px-5 py-0.5 my-1 bg-teal-600 rounded-full hover:bg-teal-800">
+                <button className="animate-bounce    px-5 py-0.5 my-1 bg-teal-600 rounded-full hover:bg-teal-800">
     <a href="#Skills" class="text-xs cursor-grab hover:scale-110 font-bold block py-2 pr-4 text-white pl-3  hover:text-gray-200 md:border-0 md:p-0">
     أطلب الآن
     </a>
 </button>
 </div>
+</Slide>
+<Slide>
                     <button className="my-1">
     <a href="#Message" class="cursor-grab text-xs hover:scale-110 font-bold block py-2 pr-4 pl-3 hover:text-teal-800 md:border-0 md:p-0">
     تواصل معنا
     </a>
 </button>
+</Slide>
+</Slide>
+
                 </ul>
 
  
