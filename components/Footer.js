@@ -17,21 +17,14 @@ const Footer = () => {
   event.preventDefault();
   const subNumber = event.target.number.value ;
  
-  const swalWithBootstrapButtons = Swal.mixin({
-    customClass: {
-      confirmButton: 'btn btn-success',
-      cancelButton: 'btn btn-danger'
-    },
-    buttonsStyling: false
-  })
   Swal.fire({
     title: '!تم بنجاح',
     text: '!سوف يتم التواصل معك من خلال واتس اب',
-    imageUrl: 'https://unsplash.it/400/200',
-    imageWidth: 300,
-    imageHeight: 100,
-    imageAlt: 'kaddy oil',
     icon: 'success',
+    imageUrl: './assest/logo4.jpg',
+    imageWidth: 300,
+    imageHeight: 150,
+    imageAlt: 'kaddy oil',
 
   })
   emailjs.sendForm(`${SERVICE_ID}`, `${TEMPLATE_ID}`, formMobile.current, `${PUBLIC_KEY}`);
@@ -51,9 +44,9 @@ const handelSubscribeDesktop = (event) => {
     title: '!تم بنجاح',
     icon: 'success',
     text: '!سوف يتم التواصل معك من خلال واتس اب',
-    imageUrl: 'https://unsplash.it/400/200',
+    imageUrl: './assest/logo4.jpg',
     imageWidth: 300,
-    imageHeight: 100,
+    imageHeight: 150,
     imageAlt: 'kaddy oil',
   })
   emailjs.sendForm(`${SERVICE_ID}`, `${TEMPLATE_ID}`, formDesktop.current, `${PUBLIC_KEY}`);
@@ -67,7 +60,7 @@ const handelSubscribeDesktop = (event) => {
 
 return (
 <>
-<footer class="text-center bg-white text-teal-600 bg-gradient-to-r from-white to-teal-100 ...">
+<footer class="text-center bg-white text-teal-600 bg-gradient-to-r from-teal-100 to-white ...">
   <div class="container px-6">
     <div class="flex justify-center gap-x-12 py-6">
 <a href="https://wa.me/+962788818125" data-tippy-content="WhatsApp">
@@ -154,7 +147,6 @@ className='w-6 h-6 mt-0.5 fill-current cursor-alias lg:w-7 lg:h-7'/></a>
                 w-full
                 px-3
                 py-1.5
-                text-base
                 font-normal
                 text-gray-700
                 bg-white bg-clip-padding
@@ -162,6 +154,7 @@ className='w-6 h-6 mt-0.5 fill-current cursor-alias lg:w-7 lg:h-7'/></a>
                 rounded
                 transition
                 ease-in-out
+                text-sm
                 m-0
                 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
               id="exampleFormControlInput1"
@@ -197,7 +190,7 @@ className='w-6 h-6 mt-0.5 fill-current cursor-alias lg:w-7 lg:h-7'/></a>
         نمو الأظافر بشكل سريع جداً, غني بالفيتامينات النقية
         ويحتوي على فيتامين ( ي )
        <br></br>
-       ❤️ولا يبطل الوضوء 
+       ولا يبطل الوضوء 
       </p>
     </div>
 
