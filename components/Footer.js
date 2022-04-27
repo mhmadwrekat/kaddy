@@ -1,5 +1,7 @@
 import React, { useRef, useState, useEffect } from "react";
-import swal from 'sweetalert';
+// ES6 Modules or TypeScript
+import Swal from 'sweetalert2';
+
 import emailjs from '@emailjs/browser';
 const SERVICE_ID = process.env.NEXT_PUBLIC_EMAIL_SERVICE_ID;
 const PUBLIC_KEY = process.env.NEXT_PUBLIC_EMAIL_PUBLIC_KEY;
@@ -7,23 +9,62 @@ const TEMPLATE_ID = process.env.NEXT_PUBLIC_EMAIL_TEMPLATE_ID;
 //  swal("!تم بنجاح" , "سوف يتم التواصل معك من خلال واتس اب", "success");
 
 const Footer = () => {
+  // CommonJS
+  const Swal = require('sweetalert2');
+
   const formMobile = useRef();
   const handelSubscribeMobile = (event) => {
   event.preventDefault();
   const subNumber = event.target.number.value ;
-  swal("Success", "Thank You For Your Feedback!!", "success");
+ 
+  const swalWithBootstrapButtons = Swal.mixin({
+    customClass: {
+      confirmButton: 'btn btn-success',
+      cancelButton: 'btn btn-danger'
+    },
+    buttonsStyling: false
+  })
+  Swal.fire({
+    title: '!تم بنجاح',
+    text: '!سوف يتم التواصل معك من خلال واتس اب',
+    imageUrl: 'https://unsplash.it/400/200',
+    imageWidth: 300,
+    imageHeight: 100,
+    imageAlt: 'kaddy oil',
+    icon: 'success',
+
+  })
   emailjs.sendForm(`${SERVICE_ID}`, `${TEMPLATE_ID}`, formMobile.current, `${PUBLIC_KEY}`);
   event.target.reset() ;
 }
+
+
+
+
 
 const formDesktop = useRef();
 const handelSubscribeDesktop = (event) => {
   event.preventDefault();
   const subNumber = event.target.number.value ;
-  swal("Success", "Thank You For Your Feedback!!", "success");
+
+  Swal.fire({
+    title: '!تم بنجاح',
+    icon: 'success',
+    text: '!سوف يتم التواصل معك من خلال واتس اب',
+    imageUrl: 'https://unsplash.it/400/200',
+    imageWidth: 300,
+    imageHeight: 100,
+    imageAlt: 'kaddy oil',
+  })
   emailjs.sendForm(`${SERVICE_ID}`, `${TEMPLATE_ID}`, formDesktop.current, `${PUBLIC_KEY}`);
   event.target.reset() ;
 }
+
+
+
+
+
+
 return (
 <>
 <footer class="text-center bg-white text-teal-600 bg-gradient-to-r from-white to-teal-100 ...">
