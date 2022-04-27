@@ -93,7 +93,7 @@ const Footer = () => {
                 w-full
                 px-3
                 py-1.5
-                text-base
+                text-sm
                 font-normal
                 text-gray-700
                 bg-white bg-clip-padding
@@ -104,7 +104,7 @@ const Footer = () => {
                 m-0
                 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                     id="exampleFormControlInput1"
-                    placeholder="07xx xxx xxx"
+                    placeholder="07XX XXX XXX"
                     required />
                 </div>
                 <div class="md:mr-auto mb-6">
