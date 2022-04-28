@@ -43,7 +43,7 @@ const Footer = () => {
   }
   return (
     <>
-      <footer class="text-center bg-white text-teal-600">
+      <footer id="Contact" class="text-center bg-white text-teal-600">
         <div class="container px-6">
           <div class="mx-auto container xl:px-20 lg:px-12 sm:px-6 px-4 pt-2">
             <div class="flex flex-col items-center justify-center">

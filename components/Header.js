@@ -53,7 +53,7 @@ src='./assest/logo4.jpg'>
                                 <li>
 <button className="px-3 py-2">
 
-    <a href="#Projects" class="cursor-grab hover:scale-110 font-bold block py-2 pr-4 pl-3  hover:text-teal-900 md:border-0 md:p-0">
+    <a href="#Who?" class="cursor-grab hover:scale-110 font-bold block py-2 pr-4 pl-3  hover:text-teal-900 md:border-0 md:p-0">
     من نحن ؟
     </a>
 </button>
@@ -62,7 +62,7 @@ src='./assest/logo4.jpg'>
 <Slide>
 <li>
 <button className="px-3 py-2">
-    <a href="#Message" class="cursor-grab hover:scale-110 font-bold block py-2 pr-4 pl-3  hover:text-teal-900 md:border-0 md:p-0">
+    <a href="#Contact" class="cursor-grab hover:scale-110 font-bold block py-2 pr-4 pl-3  hover:text-teal-900 md:border-0 md:p-0">
     تواصل معنا
     </a>
 </button>
@@ -122,7 +122,7 @@ src='./assest/logo4.jpg'>
                 <Slide cascade triggerOnce>
                 <Slide>
                 <button className="my-1">
-    <a href="#Projects" class="text-xs cursor-grab hover:scale-110 font-bold block py-2 pr-4 pl-3 hover:text-teal-800 md:border-0 md:p-0">
+    <a href="#Who?" class="text-xs cursor-grab hover:scale-110 font-bold block py-2 pr-4 pl-3 hover:text-teal-800 md:border-0 md:p-0">
     من نحن ؟
     </a>
 </button>
@@ -139,7 +139,7 @@ src='./assest/logo4.jpg'>
 </Slide>
 <Slide>
                     <button className="my-1">
-    <a href="#Message" class="cursor-grab text-xs hover:scale-110 font-bold block py-2 pr-4 pl-3 hover:text-teal-800 md:border-0 md:p-0">
+    <a href="#Contact" class="cursor-grab text-xs hover:scale-110 font-bold block py-2 pr-4 pl-3 hover:text-teal-800 md:border-0 md:p-0">
     تواصل معنا
     </a>
 </button>
