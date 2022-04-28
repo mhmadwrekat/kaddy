@@ -12,7 +12,7 @@ const Collapse = () => {
                   '⏬ نبذة عن رؤيتنا'}
               </div>
               <div {...getCollapseProps()}>
-                  <div className="text-center text-teal-600 text-lg font-bold my-5">
+                  <div className="text-center text-teal-600 text-lg font-bold my-5 mx-3">
                       رؤيتنا هي أن نصبح المزود الرائد لزيت الأظافر الطبيعي
                        عن طريق الانترنت من اجل تقديم أفضل وأبسط تجربة لعملائنا
                   </div>
@@ -32,7 +32,7 @@ const Collapse = () => {
                      '⏬ نبذة عن خدماتنا '}
                 </div>
                 <div {...getCollapseProps()}>
-                    <div className="text-center text-teal-600 text-lg font-bold my-5">
+                    <div className="text-center text-teal-600 text-lg font-bold my-5 mx-3">
                   زيت كادي هو أفضل خدمة إلكترونية لزيت الأظافر الطبيعي في المملكة 
                   الأردنية الهاشميةونحن نغطي التسليم في المملكة
       
@@ -52,8 +52,8 @@ const Collapse = () => {
                         '⏬ نبذة عن زيت كادي'}
                   </div>
                   <div {...getCollapseProps()}>
-                      <div className="text-center text-teal-600 text-lg font-bold my-5">
-                    شركة زيت كادي هي شركة رائدة في مجال العناية بالأظاففر وزيوت 
+                      <div className="text-center text-teal-600 text-lg font-bold my-5 mx-3">
+                    شركة زيت كادي هي شركة رائدة في مجال العناية بالأظافر وزيوت 
                     الأظافر الطبيعي, نقوم بترويج منتجات زيت كادي في المملكة الأردنية الهاشمية
       
                       </div>
