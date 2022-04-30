@@ -32,12 +32,7 @@ const Carosal = () => {
                         swiper: thumbsSwiper
                       }}
                 >
-                    <SwiperSlide>
-                        <img src="./assest/Carosal1.jpg"
-                            className="block w-full shadow-2xl" 
-                      onClick={() => { window.open('./assest/kaddy5.jpg', '_self') }}
-                      />
-                    </SwiperSlide>
+
                     <SwiperSlide>
                         <img src="./assest/Carosal2.jpg"
                             className="block w-full shadow-2xl" 
