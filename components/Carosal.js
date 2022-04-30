@@ -13,8 +13,7 @@ const Carosal = () => {
     SwiperCore.use([Autoplay]);
   return (
 <>
-         
-<section className='px-0 lg:px-20'>
+<section className='px-0 lg:px-52'>
                 <Swiper
                     // install Swiper modules
                     modules={[ EffectCards, Navigation, Pagination, Scrollbar, A11y]}
@@ -32,7 +31,6 @@ const Carosal = () => {
                         swiper: thumbsSwiper
                       }}
                 >
-
                     <SwiperSlide>
                         <img src="./assest/Carosal1.jpg"
                             className="block w-full shadow-2xl" 
