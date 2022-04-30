@@ -34,21 +34,21 @@ const Carosal = () => {
                 >
 
                     <SwiperSlide>
+                        <img src="./assest/Carosal1.jpg"
+                            className="block w-full shadow-2xl" 
+                      onClick={() => { window.open('./assest/Carosal1.jpg', '_self') }}
+                      />
+                    </SwiperSlide>
+                    <SwiperSlide>
                         <img src="./assest/Carosal2.jpg"
                             className="block w-full shadow-2xl" 
-                      onClick={() => { window.open('./assest/kaddy10.jpg', '_self') }}
+                      onClick={() => { window.open('./assest/Carosal2.jpg', '_self') }}
                       />
                     </SwiperSlide>
                     <SwiperSlide>
                         <img src="./assest/Carosal3.jpg"
                             className="block w-full shadow-2xl" 
-                      onClick={() => { window.open('./assest/kaddy9.jpg', '_self') }}
-                      />
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <img src="./assest/Carosal4.jpg"
-                            className="block w-full shadow-2xl" 
-                      onClick={() => { window.open('./assest/kaddy9.jpg', '_self') }}
+                      onClick={() => { window.open('./assest/Carosal3.jpg', '_self') }}
                       />
                     </SwiperSlide>
                 </Swiper>
