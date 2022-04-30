@@ -61,7 +61,7 @@ className="relative flex flex-col w-full min-w-0 mb-6 break-words rounded-lg sha
 for="name">الأسم</label>
 <input type="text" name="name" id="name"
 class="border-0 px-3 py-3 rounded text-sm shadow w-full bg-gray-100 placeholder-gray-400 text-gray-800 outline-none focus:bg-gray-400"
-placeholder="كادي محمد"
+placeholder="ادخل الاسم هنا "
 required />
 </div>
 
@@ -72,7 +72,7 @@ required />
 for="email">الأيميل</label>
 <input type="email" name="email" id="email"
 class="border-0 px-3 py-3 rounded text-sm shadow w-full bg-gray-100 placeholder-gray-400 text-gray-800 outline-none focus:bg-gray-400"
- placeholder="KaddyMohammad@gmail.com"
+ placeholder="Kaddy@gmail.com"
 required />
 </div>
 

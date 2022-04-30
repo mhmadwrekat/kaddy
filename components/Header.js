@@ -8,7 +8,7 @@ const Header = () => {
             <Nav />
 
             <nav class="bg-white opacity-80 border-gray-200 px-2 sm:px-4 py-3 rounded" translate='no'>
-                <div class="mx-auto container flex flex-wrap md:justify-between lg:justify-between justify-center items-center ...">
+                <div class=" mx-auto container flex flex-wrap md:justify-between lg:justify-between justify-center items-center ...">
                     <Link href="/">
                         <img
                             className="w-5/12 cursor-grab hover:scale-110 md:w-3/12 lg:w-40 rounded-xl "
