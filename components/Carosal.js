@@ -13,8 +13,6 @@ const Carosal = () => {
     SwiperCore.use([Autoplay]);
   return (
 <>
-<section className=' lg:px-40'>
-
                 <Swiper
                     // install Swiper modules
                     modules={[EffectFade, Navigation, Pagination, Scrollbar, A11y]}
@@ -51,8 +49,6 @@ const Carosal = () => {
                       />
                     </SwiperSlide>
                 </Swiper>
-</section>
-
 </>  
 )
 }

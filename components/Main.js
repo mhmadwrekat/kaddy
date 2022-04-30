@@ -19,25 +19,17 @@ return (
 <section className='block md:hidden lg:hidden'>
 <Carosal />
 </section>
+
+
 {/* Desktop Carosal */}
 <section className='hidden md:block lg:block'>
 <Dcarosal />
 </section>
 
 
-
-
-
 <div id="Who?">
 <Collapse />
 </div>
-
-
-
-
-
-
-
 
 <Footer />
 

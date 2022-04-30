@@ -9,11 +9,11 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
 import 'swiper/css/scrollbar';
-const Carosal = () => {
+const Dcarosal = () => {
     SwiperCore.use([Autoplay]);
   return (
 <>
-<section className=' lg:px-40'>
+<section className='px-20'>
 
                 <Swiper
                     // install Swiper modules
@@ -33,27 +33,20 @@ const Carosal = () => {
                     }}
                 >
                     <SwiperSlide>
-                        <img src="./assest/carosal1.jpg"
+                        <img src="./assest/kaddy5.jpg"
                             className="block w-full shadow-2xl" 
                       onClick={() => { window.open('./assest/carosal1.jpg', '_self') }}
                       />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="./assest/carosal3.jpg"
+                        <img src="./assest/kaddy9.jpg"
                             className="block w-full shadow-2xl" 
                       onClick={() => { window.open('./assest/carosal3.jpg', '_self') }}
                       />
                     </SwiperSlide>
-                    <SwiperSlide>
-                        <img src="./assest/carosal2.jpg"
-                            className="block w-full shadow-2xl" 
-                      onClick={() => { window.open('./assest/carosal2.jpg', '_self') }}
-                      />
-                    </SwiperSlide>
                 </Swiper>
-</section>
-
+                </section>
 </>  
 )
 }
-export default Carosal
+export default Dcarosal
