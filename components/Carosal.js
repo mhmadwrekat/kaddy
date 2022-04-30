@@ -1,6 +1,6 @@
 import React from 'react';
 // import Swiper core and required modules
-import { EffectFade, Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import { EffectCards, Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Autoplay } from 'swiper';
 // Import Swiper styles
@@ -15,15 +15,15 @@ const Carosal = () => {
 <>
                 <Swiper
                     // install Swiper modules
-                    modules={[EffectFade, Navigation, Pagination, Scrollbar, A11y]}
-                    effect='fade'
+                    modules={[EffectCards, Navigation, Pagination, Scrollbar, A11y]}
+                    effect='cards'
                     fadeEffect={{
                         crossFade: true
                     }}
                     loop={true}
                     autoplay={true}
                     spaceBetween={10}
-                    slidesPerView={2}
+                    slidesPerView={1}
                     scrollbar={{
                         draggable: true,
                         dragSize: 'auto',
