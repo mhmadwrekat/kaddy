@@ -5,7 +5,7 @@ const TEMPLATE_ID = process.env.NEXT_PUBLIC_EMAIL_TEMPLATE_ID;
 // ES6 Modules or TypeScript
 import Swal from 'sweetalert2';
 import emailjs from '@emailjs/browser';
-
+import Link from 'next/link';
 const Footer = () => {
   // CommonJS
   const Swal = require('sweetalert2');
@@ -47,10 +47,12 @@ const Footer = () => {
         <div class="container px-6">
           <div class="mx-auto container xl:px-20 lg:px-12 sm:px-6 px-4 pt-2">
             <div class="flex flex-col items-center justify-center">
+<Link href="/">
               <img
-                className="w-5/12 md:w-3/12 lg:w-40 rounded-xl "
+                className="w-5/12 cursor-grab hover:scale-110 md:w-3/12 lg:w-40 rounded-xl "
                 src='./assest/logo4.jpg'>
               </img>
+</Link>
             </div>
           </div>
           <div class="flex justify-center gap-x-12 py-6">

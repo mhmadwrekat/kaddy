@@ -2,7 +2,6 @@ import { Reveal, Fade, Slide } from "react-awesome-reveal";
 import React from 'react';
 import { keyframes } from "@emotion/react";
 import Link from "next/link";
-import Nav from '../components/Nav';
 import Main from '../components/Main';
 const index = () => {
   const customAnimation = keyframes`
@@ -17,8 +16,6 @@ const index = () => {
   `;
   return (
 <>
-
-<Nav />
 <Main />
 </>  
 )
