@@ -1,8 +1,7 @@
 import React, { useRef } from "react";
 const SERVICE_ID = process.env.NEXT_PUBLIC_EMAIL_SERVICE_ID;
 const PUBLIC_KEY = process.env.NEXT_PUBLIC_EMAIL_PUBLIC_KEY;
-const TEMPLATE_ID = 'template_x35rtrv';
-//process.env.NEXT_PUBLIC_EMAIL_TEMPLATE_ID;
+const TEMPLATE_ID = process.env.NEXT_PUBLIC_EMAIL_TEMPLATE_ID_ORDER;
 import emailjs from '@emailjs/browser';
 import Link from "next/link";
 // ES6 Modules or TypeScript
