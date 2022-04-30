@@ -14,6 +14,7 @@ const Carosal = () => {
   return (
 <>
 <section className='px-0 lg:px-52'>
+    <section className='px-0 lg:px-52'>
                 <Swiper
                     // install Swiper modules
                     modules={[ EffectCards, Navigation, Pagination, Scrollbar, A11y]}
@@ -51,6 +52,8 @@ const Carosal = () => {
                     </SwiperSlide>
                 </Swiper>
                 </section>
+    </section>
+
 </>  
 )
 }

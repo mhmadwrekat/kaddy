@@ -118,7 +118,7 @@ placeholder="Jordan - Amman - Jubeiha" required></textarea>
   
   div className="mt-6 text-center">
 <button id="feedbackBtn" type="submit"
-className="px-6 py-3 mx-auto mb-1 mr-1 text-sm font-bold text-center text-gray-200 uppercase rounded shadow outline-none bg-sky-700 hover:bg-sky-900 cursor-alias active:bg-yellow-400 hover:shadow-lg focus:outline-none"
+className="px-6 py-3 mx-auto mb-1 mr-1 text-sm font-bold text-center text-gray-200 uppercase rounded shadow outline-none bg-amber-500 hover:bg-amber-600 cursor-alias active:bg-teal-700 hover:shadow-lg focus:outline-none"
                                                             >أرسال
                                                             </button>
                                                         </div>
