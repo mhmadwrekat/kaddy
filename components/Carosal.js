@@ -1,6 +1,6 @@
 import React from 'react';
 // import Swiper core and required modules
-import { EffectCards, Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import { EffectCards, thumbsSwiper, Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Autoplay } from 'swiper';
 // Import Swiper styles
@@ -13,13 +13,12 @@ const Carosal = () => {
     SwiperCore.use([Autoplay]);
   return (
 <>
+         
+<section className='px-0 lg:px-20'>
                 <Swiper
                     // install Swiper modules
-                    modules={[EffectCards, Navigation, Pagination, Scrollbar, A11y]}
+                    modules={[ EffectCards, Navigation, Pagination, Scrollbar, A11y]}
                     effect='cards'
-                    fadeEffect={{
-                        crossFade: true
-                    }}
                     loop={true}
                     autoplay={true}
                     spaceBetween={10}
@@ -29,26 +28,30 @@ const Carosal = () => {
                         dragSize: 'auto',
                         hide: true
                     }}
+                    thumbs={{
+                        swiper: thumbsSwiper
+                      }}
                 >
                     <SwiperSlide>
-                        <img src="./assest/carosal1.jpg"
+                        <img src="./assest/kaddy5.jpg"
                             className="block w-full shadow-2xl" 
-                      onClick={() => { window.open('./assest/carosal1.jpg', '_self') }}
+                      onClick={() => { window.open('./assest/kaddy5.jpg', '_self') }}
                       />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="./assest/carosal3.jpg"
+                        <img src="./assest/kaddy10.jpg"
                             className="block w-full shadow-2xl" 
-                      onClick={() => { window.open('./assest/carosal3.jpg', '_self') }}
+                      onClick={() => { window.open('./assest/kaddy10.jpg', '_self') }}
                       />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="./assest/carosal2.jpg"
+                        <img src="./assest/kaddy9.jpg"
                             className="block w-full shadow-2xl" 
-                      onClick={() => { window.open('./assest/carosal2.jpg', '_self') }}
+                      onClick={() => { window.open('./assest/kaddy9.jpg', '_self') }}
                       />
                     </SwiperSlide>
                 </Swiper>
+                </section>
 </>  
 )
 }
