@@ -22,11 +22,6 @@ const index = () => {
 
 <Nav />
 <Main />
-
-
-
-
-
 </>  
 )
 }
