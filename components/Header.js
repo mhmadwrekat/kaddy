@@ -27,10 +27,11 @@ const Header = () => {
                                 <Slide>
                                     <li>
                                         <Link href="/order">
-                                            <button className="px-3 py-2 bg-teal-600 rounded-full animate-bounce ">
-                                                <a class="cursor-grab hover:scale-110 font-bold block pr-4 pl-3 text-white hover:text-gray-200 md:border-0 md:p-0">
+                                            <button className="cursor-grab hover:scale-110 font-bold block pr-4 pl-3 text-white hover:text-gray-200 md:border-0 md:p-0
+px-3 py-2 bg-teal-600 rounded-full animate-bounce ">
+                               
                                                     أطلب الآن
-                                                </a>
+                                                
                                             </button>
                                         </Link>
                                     </li>
