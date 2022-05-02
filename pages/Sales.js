@@ -4,9 +4,10 @@ import Nav from '../components/Nav';
 const Sales = () => {
 
   let counter = 1 ;
-  let industry = 35 ;
-  let sale = 4 ;
-  let free = 6 ;
+
+  let industry = 30 ;
+  let sale = 3 ;
+  let free = 3 ;
   let available = industry - (sale + free);
 
 
