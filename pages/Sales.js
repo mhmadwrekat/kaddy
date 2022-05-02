@@ -1,8 +1,67 @@
 import React from 'react';
 import salesData from './data/sales.json';
+import Nav from '../components/Nav';
 const Sales = () => {
   return (
 <>
+<Nav />
+<section className='font-mono lg:text-4xl text-lg font-extrabold flex mx-5 my-5 lg:mx-20 justify-between ...'>
+
+{/* الانتاج */}
+{/* الانتاج */}
+
+<div className=''>
+<img
+  src="https://cdn-icons.flaticon.com/png/512/1064/premium/1064290.png?token=exp=1651500984~hmac=e169577dcdef5bba4f5da3ccde65e20b"
+  class="rounded-full lg:w-32 w-16"
+  alt="kaddy"
+/>
+<p className='mt-2 text-center'>
+30
+</p>
+</div>
+
+{/* المباااااع */}
+{/* المباااااع */}
+
+<div>
+<img
+  src="https://cdn-icons-png.flaticon.com/512/819/819216.png"
+  class="rounded-full lg:w-32 w-16"
+  alt="Kaddy"
+/>
+<p className='mt-2 text-center'>
+3
+</p>
+</div>
+{/* المجااااني */}
+{/* المجااااني */}
+<div>
+<img
+  src="https://cdn-icons.flaticon.com/png/512/6188/premium/6188570.png?token=exp=1651501303~hmac=4e0e7a28820d8845ab1bf91a80690bdf"
+  class="rounded-full lg:w-32 w-16"
+  alt="kaddy oil"
+/>
+<p className='mt-2 text-center'>
+3
+</p>
+</div>
+
+{/* المتبقي */}
+{/* المتبقي */}
+
+<div>
+<img
+  src="https://cdn-icons-png.flaticon.com/512/1271/1271380.png"
+  class="rounded-full lg:w-32 w-16"
+  alt="kaddy-oil"
+/>
+<p className='mt-2 text-center'>
+24
+</p>
+</div>
+</section>
+
 
 <div class="flex flex-col">
   <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
@@ -26,61 +85,51 @@ const Sales = () => {
             <th scope="col" class="text-xs lg:text-sm font-medium text-white px-1 py-4">
               Details
               </th>
+              <th scope="col" class="text-xs lg:text-sm font-medium text-white px-1 py-4">
+              Details
+              </th>
+              <th scope="col" class="text-xs lg:text-sm font-medium text-white px-1 py-4">
+              Details
+              </th>
             </tr>
           </thead>
           <tbody>
-
 {
 salesData.map(item => {
 return <>
             <tr class="bg-white border-b">
-              <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              <td class="text-sm text-gray-900 px-6 py-4 whitespace-nowrap font-medium">
               {item.date}
               </td>
-              <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              <td class="text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap">
               {item.bottle}
               </td>
-              <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              <td class="text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap">
               {item.price}
               </td>
-              <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              <td class="text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap">
                 {item.through}
               </td>
-              <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+              <td class="text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap">
+                {item.details}
+              </td>
+              <td class="text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap">
+                {item.details}
+              </td>
+              <td class="text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap">
                 {item.details}
               </td>
             </tr>
 </>
                                 })
                             }
-
-
-           
           </tbody>
         </table>
       </div>
     </div>
   </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </>  
-
 )
 }
-
 export default Sales

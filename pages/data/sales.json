@@ -1,22 +1,15 @@
 [
     {
-        "date":"2002-12-09",
-        "bottle":1,
-        "price": 5,
-        "through":"Saloon",
+        "date":"2022-05-02",
+        "bottle":2,
+        "price":10,
+        "through":"Salt",
         "details":"---"
 
       },
       {
-        "date":"2002-12-09",
-        "bottle":2,
-        "price": 5,
-        "through":"Saloon",
-        "details":"---"
-      },
-      {
-        "date":"2002-12-09",
-        "bottle":3,
+        "date":"2022-04-28",
+        "bottle":1,
         "price": 5,
         "through":"Saloon",
         "details":"---"
