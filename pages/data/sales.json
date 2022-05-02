@@ -1,19 +1,25 @@
 [
-    
-      
+
+
+    {
+        "date":"2022-05-02",
+        "bottle":1,
+        "price":5,
+        "through":"Cella center",
+        "details":"---"
+      },
     {
         "date":"2022-05-02",
         "bottle":2,
         "price":10,
-        "through":"Salt",
+        "through":"Al-Salt",
         "details":"---"
       },
-      
       {
         "date":"2022-04-28",
         "bottle":1,
         "price": 5,
-        "through":"Saloon",
+        "through":"Cella center",
         "details":"---"
       }
 ]
