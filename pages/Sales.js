@@ -4,6 +4,15 @@ import Nav from '../components/Nav';
 const Sales = () => {
 
   let counter = 1 ;
+  let industry = 35 ;
+  let sale = 4 ;
+  let free = 6 ;
+  let available = industry - (sale + free);
+
+
+
+
+
 return (
 <>
 <Nav />
@@ -19,7 +28,7 @@ return (
   alt="kaddy"
 />
 <p className='mt-2 text-center'>
-30
+     {industry}
 </p>
 </div>
 
@@ -33,7 +42,7 @@ return (
   alt="Kaddy"
 />
 <p className='mt-2 text-center'>
-3
+   {sale}
 </p>
 </div>
 {/* المجااااني */}
@@ -45,7 +54,7 @@ return (
   alt="kaddy oil"
 />
 <p className='mt-2 text-center'>
-3
+    {free}
 </p>
 </div>
 
@@ -59,7 +68,7 @@ return (
   alt="kaddy-oil"
 />
 <p className='mt-2 text-center'>
-24
+    {available}
 </p>
 </div>
 </section>
