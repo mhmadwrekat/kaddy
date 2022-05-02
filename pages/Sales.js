@@ -6,8 +6,11 @@ const Sales = () => {
   let counter = 1 ;
 
   let industry = 30 ;
-  let sale = 3 ;
+
+  let sale = 4 ;
+
   let free = 3 ;
+
   let available = industry - (sale + free);
 
 
