@@ -72,11 +72,12 @@ px-3 py-2 bg-teal-600 rounded-full animate-bounce ">
                         <Slide>
                             <div className="px-auto">
                                 <Link href="/order">
-                                    <button className="animate-bounce    px-5 py-0.5 my-1 bg-teal-600 rounded-full hover:bg-teal-800">
-                                        <a class="text-xs cursor-grab hover:scale-110 font-bold block py-2 pr-4 text-white pl-3  hover:text-gray-200 md:border-0 md:p-0">
-                                            أطلب الآن
-                                        </a>
-                                    </button>
+                                    <button className="cursor-grab hover:scale-110 font-bold block pr-4 pl-3 text-white hover:text-gray-200 md:border-0 md:p-0
+px-3 py-2 bg-teal-600 rounded-full animate-bounce ">
+                               
+                                                    أطلب الآن
+                                                
+                                            </button>
                                 </Link>
                             </div>
                         </Slide>
