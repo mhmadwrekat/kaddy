@@ -1,12 +1,14 @@
 [
+    
+      
     {
         "date":"2022-05-02",
         "bottle":2,
         "price":10,
         "through":"Salt",
         "details":"---"
-
       },
+      
       {
         "date":"2022-04-28",
         "bottle":1,

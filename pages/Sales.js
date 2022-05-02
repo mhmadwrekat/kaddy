@@ -2,7 +2,9 @@ import React from 'react';
 import salesData from './data/sales.json';
 import Nav from '../components/Nav';
 const Sales = () => {
-  return (
+
+  let counter = 1 ;
+return (
 <>
 <Nav />
 <section className='font-mono lg:text-4xl text-lg font-extrabold flex mx-5 my-5 lg:mx-20 justify-between ...'>
@@ -12,7 +14,7 @@ const Sales = () => {
 
 <div className=''>
 <img
-  src="https://cdn-icons.flaticon.com/png/512/1064/premium/1064290.png?token=exp=1651500984~hmac=e169577dcdef5bba4f5da3ccde65e20b"
+  src="./assest/industry.png"
   class="rounded-full lg:w-32 w-16"
   alt="kaddy"
 />
@@ -26,7 +28,7 @@ const Sales = () => {
 
 <div>
 <img
-  src="https://cdn-icons-png.flaticon.com/512/819/819216.png"
+  src="./assest/sales.png"
   class="rounded-full lg:w-32 w-16"
   alt="Kaddy"
 />
@@ -38,7 +40,7 @@ const Sales = () => {
 {/* المجااااني */}
 <div>
 <img
-  src="https://cdn-icons.flaticon.com/png/512/6188/premium/6188570.png?token=exp=1651501303~hmac=4e0e7a28820d8845ab1bf91a80690bdf"
+  src="./assest/free.png"
   class="rounded-full lg:w-32 w-16"
   alt="kaddy oil"
 />
@@ -52,7 +54,7 @@ const Sales = () => {
 
 <div>
 <img
-  src="https://cdn-icons-png.flaticon.com/512/1271/1271380.png"
+  src="./assest/available.png"
   class="rounded-full lg:w-32 w-16"
   alt="kaddy-oil"
 />
@@ -70,6 +72,9 @@ const Sales = () => {
         <table class="min-w-full text-center">
           <thead class="border-b bg-gray-800">
             <tr>
+            <th scope="col" class="text-xs lg:text-sm font-medium text-white px-1 py-4">
+              #
+              </th>
               <th scope="col" class="text-xs lg:text-sm font-medium text-white px-1 py-4">
                 Date
               </th>
@@ -85,12 +90,6 @@ const Sales = () => {
             <th scope="col" class="text-xs lg:text-sm font-medium text-white px-1 py-4">
               Details
               </th>
-              <th scope="col" class="text-xs lg:text-sm font-medium text-white px-1 py-4">
-              Details
-              </th>
-              <th scope="col" class="text-xs lg:text-sm font-medium text-white px-1 py-4">
-              Details
-              </th>
             </tr>
           </thead>
           <tbody>
@@ -98,6 +97,9 @@ const Sales = () => {
 salesData.map(item => {
 return <>
             <tr class="bg-white border-b">
+            <td class="text-sm text-gray-900 px-6 py-4 whitespace-nowrap font-medium">
+              {counter++}
+              </td>
               <td class="text-sm text-gray-900 px-6 py-4 whitespace-nowrap font-medium">
               {item.date}
               </td>
@@ -109,12 +111,6 @@ return <>
               </td>
               <td class="text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap">
                 {item.through}
-              </td>
-              <td class="text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap">
-                {item.details}
-              </td>
-              <td class="text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap">
-                {item.details}
               </td>
               <td class="text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap">
                 {item.details}
