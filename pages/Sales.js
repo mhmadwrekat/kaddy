@@ -3,7 +3,7 @@ import salesData from './data/sales.json';
 import Nav from '../components/Nav';
 const Sales = () => {
 
-  let counter = 1 ;
+  let counter = salesData.length ;
 
   let industry = 30 ;
 
@@ -120,7 +120,7 @@ salesData.map(item => {
 return <>
             <tr class="bg-white border-b">
             <td class="text-sm text-gray-900 px-6 py-4 whitespace-nowrap font-medium">
-              {counter++}
+              {counter--}
               </td>
               <td class="text-sm text-gray-900 px-6 py-4 whitespace-nowrap font-medium">
               {item.date}
