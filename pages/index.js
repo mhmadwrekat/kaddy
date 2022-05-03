@@ -3,6 +3,7 @@ import React from 'react';
 import { keyframes } from "@emotion/react";
 import Link from "next/link";
 import Main from '../components/Main';
+import Nav from "../components/Nav";
 const index = () => {
   const customAnimation = keyframes`
   from {
@@ -16,6 +17,7 @@ const index = () => {
   `;
   return (
 <>
+<Nav />
 <Main />
 </>  
 )
