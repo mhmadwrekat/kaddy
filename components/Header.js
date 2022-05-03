@@ -1,11 +1,10 @@
 import React from "react";
 import { Slide } from "react-awesome-reveal";
 import Link from "next/link";
-import Nav from "./Nav";
+
 const Header = () => {
     return (
         <>
-            <Nav />
 
             <nav class="bg-white opacity-80 border-gray-200 px-2 sm:px-4 py-3 rounded" translate='no'>
                 <div class=" mx-auto container flex flex-wrap md:justify-between lg:justify-between justify-center items-center ...">
