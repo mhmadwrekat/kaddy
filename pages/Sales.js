@@ -101,11 +101,20 @@ return (
               Through
               </th>
             <th scope="col" class="text-xs lg:text-sm font-medium text-white px-1 py-4">
+              Account
+              </th>
+<th scope="col" class="text-xs lg:text-sm font-medium text-white px-1 py-4">
               Details
               </th>
             </tr>
           </thead>
           <tbody>
+{/*
+Account
+❌
+✅
+✔️
+*/}
 {
 salesData.map(item => {
 return <>
@@ -126,6 +135,9 @@ return <>
                 {item.through}
               </td>
               <td class="text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap">
+                {item.account}
+              </td>
+<td class="text-sm text-gray-900 font-medium px-6 py-4 whitespace-nowrap">
                 {item.details}
               </td>
             </tr>
