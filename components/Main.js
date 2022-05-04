@@ -6,7 +6,7 @@ import Footer from './Footer';
 const Main = () => {  
 return (
 <>
-<section className='bg-gradient-to-r from-white to-teal-100 ...'>
+<section className='bg-white'>
 
 {/* Header */}
 <Header />

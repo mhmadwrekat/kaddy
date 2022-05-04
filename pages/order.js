@@ -50,7 +50,7 @@ return (
 <div className="flex flex-wrap justify-center">
 <div className="w-full px-4 lg:w-5/12">
 <div
-className="relative flex flex-col w-full min-w-0 mb-6 break-words rounded-lg shadow-lg bg-gradient-to-r from-teal-400 to-teal-600 opacity-90">
+className="relative flex flex-col w-full min-w-0 mb-6 break-words rounded-lg shadow-lg bg-gradient-to-r from-blue-400 to-blue-900 opacity-90">
 <div className="flex-auto p-5 lg:p-10">
 <h4 className="mb-3 text-2xl font-semibold text-center">!! للطلب </h4>
 <form id="feedbackForm" method='post' onSubmit={handelFeedback} ref={form}>

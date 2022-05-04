@@ -6,7 +6,7 @@ const Collapse = () => {
           return (
             <div className='collapsible'>
             <div className="mx-20 lg:mx-96 md:mx-60 lg:px-20">
-<div className="px-3 py-1.5 my-10 text-xl font-bold text-center text-white bg-teal-700 border-teal-500 rounded-xl lg:text-2xl hover:scale-110 cursor-alias" {...getToggleProps()}>                  {isExpanded ? 
+<div className="px-3 py-1.5 my-10 text-xl font-bold text-center text-white bg-blue-900 border-teal-500 rounded-xl lg:text-2xl hover:scale-110 cursor-alias" {...getToggleProps()}>                  {isExpanded ? 
                     'نبذة عن خدماتنا' 
                     :
                      'نبذة عن خدماتنا '}
@@ -26,7 +26,7 @@ const Collapse = () => {
             return (
               <div className='collapsible'>
             <div className="mx-20 lg:mx-96 md:mx-60 lg:px-20">
-<div className="px-3 py-1.5 my-10 text-xl font-bold text-center text-white bg-teal-700 border-teal-500 rounded-xl lg:text-2xl hover:scale-110 cursor-alias" {...getToggleProps()}>
+<div className="px-3 py-1.5 my-10 text-xl font-bold text-center text-white bg-blue-900 border-teal-500 rounded-xl lg:text-2xl hover:scale-110 cursor-alias" {...getToggleProps()}>
                       {isExpanded ?
                        'نبذة عن زيت كادي' 
                        :
@@ -41,13 +41,12 @@ const Collapse = () => {
                   </div>
                   </div>
               );
-            }
-            
+            }            
   return (
 <>
 <div>
 <div className="mx-20 lg:mx-96 md:mx-60 lg:px-20">
-<div className="px-3 py-1.5 my-10 text-xl font-bold text-center text-white bg-teal-700 border-teal-500 rounded-xl lg:text-2xl hover:scale-110 cursor-alias">
+<div className="px-3 py-1.5 my-10 text-xl font-bold text-center text-white bg-blue-900 border-teal-500 rounded-xl lg:text-2xl hover:scale-110 cursor-alias">
                  نبذة عن رؤيتنا    
 </div>
 </div>

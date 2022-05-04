@@ -1,23 +1,10 @@
 import React from "react";
 import { Slide } from "react-awesome-reveal";
 import Link from "next/link";
-import Head from 'next/head';
 
 const Header = () => {
     return (
         <>
-
-    <Head>
-      <title>Kaddy Oil</title>
-      <link rel="icon" href="/favicon.ico" />
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-      <meta name="description" content="Kaddy Natural Oils  - Jordan-Amman" />
-      <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" />
-      <link href="https://fonts.googleapis.com/css?family=Work+Sans:200,400&display=swap" rel="stylesheet" />
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
-    </Head>
             <nav class="bg-white opacity-80 border-gray-200 px-2 sm:px-4 py-3 rounded" translate='no'>
                 <div class=" mx-auto container flex flex-wrap md:justify-between lg:justify-between justify-center items-center ...">
                     <Link href="/">
@@ -38,11 +25,8 @@ const Header = () => {
                                 <Slide>
                                     <li>
                                         <Link href="/order">
-                                            <button className="cursor-grab hover:scale-110 font-bold block pr-4 pl-3 text-white hover:text-gray-200 md:border-0 md:p-0
-px-4 py-1 bg-teal-600 rounded-full animate-bounce ">
-                               
+                                            <button className="block px-6 py-2 font-bold text-white bg-blue-900 rounded-full cursor-grab hover:scale-110 hover:text-gray-200 md:border-0 animate-bounce ">
                                                     أطلب الآن
-                                                
                                             </button>
                                         </Link>
                                     </li>
@@ -83,11 +67,8 @@ px-4 py-1 bg-teal-600 rounded-full animate-bounce ">
                         <Slide>
                             <div className="px-auto">
                                 <Link href="/order">
-                                    <button className="cursor-grab hover:scale-110 font-bold block pr-4 pl-3 text-white hover:text-gray-200 md:border-0 md:p-0
-px-4 py-1 bg-teal-600 rounded-full animate-bounce ">
-                               
+<button className="block px-5 py-1 font-bold text-white bg-blue-900 rounded-full cursor-grab hover:scale-110 hover:text-gray-200 md:border-0 animate-bounce ">
                                                     أطلب الآن
-                     
                                             </button>
                                 </Link>
                             </div>

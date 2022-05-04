@@ -6,7 +6,6 @@ const OrderHead = () => {
     return (
         <>
             <Nav />
-
             <nav class="bg-white opacity-80 border-gray-200 px-2 sm:px-4 py-3 rounded" translate='no'>
                 <div class="mx-auto container flex flex-wrap md:justify-between lg:justify-between justify-center items-center ...">
                     <Link href="/">
@@ -23,10 +22,8 @@ const OrderHead = () => {
                                 <Slide>
                                     <li>
                                         <Link href="/">
-                                            <button className="px-3 py-2 bg-teal-600 rounded-full ">
-                                                <a class="cursor-grab hover:scale-110 font-bold block pr-4 pl-3 text-white hover:text-gray-200 md:border-0 md:p-0">
+                                            <button className="px-4 py-2 font-bold text-white bg-blue-900 rounded-full cursor-grab hover:scale-110">
                                                     الرئيسية
-                                                </a>
                                             </button>
                                         </Link>
                                     </li>
@@ -71,10 +68,8 @@ const OrderHead = () => {
                         <Slide>
                             <div className="px-auto">
                                 <Link href="/">
-                                    <button className="px-5 py-0.5 my-1 bg-teal-600 rounded-full hover:bg-teal-800">
-                                        <a class="text-xs cursor-grab hover:scale-110 font-bold block py-2 pr-4 text-white pl-3  hover:text-gray-200 md:border-0 md:p-0">
+                                    <button className="px-6 py-2 text-xs font-bold text-white bg-blue-900 rounded-full cursor-grab hover:scale-110 hover:bg-teal-800">
                                             الرئيسيه
-                                        </a>
                                     </button>
                                 </Link>
                             </div>
