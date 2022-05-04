@@ -13,7 +13,6 @@ const Sales = () => {
 
   let available = industry - (sale + free);
 
-{/*cousins*/
 
 return (
 <>
