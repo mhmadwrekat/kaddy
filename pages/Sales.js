@@ -7,13 +7,13 @@ const Sales = () => {
 
   let industry = 30 ;
 
-  let sale = 5 ;
+  let sale = 6 ;
 
   let free = 4 ;
 
   let available = industry - (sale + free);
 
-
+{/*cousins*/
 
 return (
 <>
