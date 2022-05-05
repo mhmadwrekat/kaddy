@@ -56,6 +56,12 @@ const Carosal = () => {
                       onClick={() => { window.open('./assest/Carosal4.jpg', '_self') }}
                       />
                     </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="./assest/Carosal5.jpg"
+                            className="block w-full shadow-2xl" 
+                      onClick={() => { window.open('./assest/Carosal5.jpg', '_self') }}
+                      />
+                    </SwiperSlide>
                 </Swiper>
                 </section>
     </section>

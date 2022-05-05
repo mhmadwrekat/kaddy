@@ -135,9 +135,6 @@ className="px-6 py-3 mx-auto mb-1 mr-1 text-sm font-bold text-center text-gray-2
 <Footer />
 </div>
 
-
-
-
 </section>
 </>
   )
