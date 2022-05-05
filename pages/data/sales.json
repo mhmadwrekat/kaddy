@@ -21,8 +21,8 @@
         "bottle":1,
         "price":5,
         "through":"Cella center",
-        "details":"---",
-        "account":"❌"
+        "details":"Materials",
+        "account":"✅"
       },
     {
         "date":"2022-05-02",
@@ -37,7 +37,7 @@
         "bottle":1,
         "price": 5,
         "through":"Cella center",
-        "details":"---",
-        "account":"❌"
+        "details":"Materials",
+        "account":"✅"
       }
 ]
