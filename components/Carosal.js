@@ -45,6 +45,12 @@ const Carosal = () => {
                       />
                     </SwiperSlide>
                     <SwiperSlide>
+                        <img src="./assest/Carosal6.jpg"
+                            className="block w-full shadow-2xl" 
+                      onClick={() => { window.open('./assest/Carosal6.jpg', '_self') }}
+                      />
+                    </SwiperSlide>
+                    <SwiperSlide>
                         <img src="./assest/Carosal3.jpg"
                             className="block w-full shadow-2xl" 
                       onClick={() => { window.open('./assest/Carosal3.jpg', '_self') }}
