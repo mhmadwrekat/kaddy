@@ -1,5 +1,12 @@
 [
-
+{
+        "date":"2022-05-09",
+        "bottle":1,
+        "price":5,
+        "through":"Alsalt",
+        "details":"Shatha",
+        "account":"✅"
+      },
 {
         "date":"2022-05-09",
         "bottle":2,
