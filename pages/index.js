@@ -1,12 +1,15 @@
-import { Reveal, Fade, Slide } from "react-awesome-reveal";
-import React from 'react';
-import { keyframes } from "@emotion/react";
-import Link from "next/link";
-import Main from '../components/Main';
-import Nav from "../components/Nav";
-import Head from 'next/head';
+import { Reveal, Fade, Slide } from 'react-awesome-reveal'
+import React from 'react'
+import { keyframes } from '@emotion/react'
+import Link from 'next/link'
+import Main from '../components/Main'
+import Nav from '../components/Nav'
+import Head from 'next/head'
 
 const index = () => {
+  const test =
+    ' ملكا«سيطر الدفاع المدني على حريق ضخم التهم 1200 دونم من الاعشاب الجافه والاشجار الحرجيه والمثمره , في محميهغابات اليرموك بمنطقه ام قيس في لواء بني كنانه بمحافظه اربد ,شمالي الاردن.وحاولت قوات الأطفاء ,السيطرة على الحريق ل10 ساعات وواجه'
+
   const customAnimation = keyframes`
   from {
     opacity: 0;
@@ -16,23 +19,39 @@ const index = () => {
     opacity: 1;
     transform: translate3d(0, 0, 0);
   }
-  `;
+  `
   return (
-<>
-<Head>
-<title>Kaddy Oil</title>
-<link rel="icon" href="/assest/pagelogo.png" />
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-<meta name="description" content="Kaddy Natural Oils  - Jordan-Amman" />
-<link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" />
-<link href="https://fonts.googleapis.com/css?family=Work+Sans:200,400&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
-</Head>
-<Main />
-</>  
-)
+    <>
+      <Head>
+        <title>Kaddy Oil</title>
+        <link rel="icon" href="/assest/pagelogo.png" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta name="description" content="Kaddy Natural Oils  - Jordan-Amman" />
+        <link
+          rel="stylesheet"
+          href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"
+        />
+        <link
+          href="https://fonts.googleapis.com/css?family=Work+Sans:200,400&display=swap"
+          rel="stylesheet"
+        />
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css"
+        />
+      </Head>
+      <div>
+        <h2 className="font-TSlight text-md mt-2 lg:text-base">{test}</h2>
+        <div className="my-16"></div>
+        <h2 className="font-TSlight text-md mt-2 lg:text-base">
+          {test.split('', 50)} .....
+        </h2>
+      </div>
+      <Main />
+    </>
+  )
 }
 export default index
 /*
