@@ -7,10 +7,6 @@ import Nav from '../components/Nav'
 import Head from 'next/head'
 
 const index = () => {
-  const test =
-    ' ملكا«سيطر الدفاع المدني على حريق ضخم التهم 1200 دونم من الاعشاب الجافه والاشجار الحرجيه والمثمره , في محميهغابات اليرموك بمنطقه ام قيس في لواء بني كنانه بمحافظه اربد ,شمالي الاردن.وحاولت قوات الأطفاء ,السيطرة على الحريق ل10 ساعات وواجه'
-
-  const test2 = test.split('', 50)
   const customAnimation = keyframes`
   from {
     opacity: 0;
@@ -43,23 +39,6 @@ const index = () => {
           href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css"
         />
       </Head>
-      <div>
-        <h2 className="font-TSlight text-md mt-2 lg:text-base">
-          {test2.slice(0, 20)} .....
-        </h2>
-
-        <div className="my-16"></div>
-
-        <h2 className="font-TSlight text-md mt-2 lg:text-base">
-          {test.slice(0, 20)}..........
-        </h2>
-
-        <div className="my-16"></div>
-
-        <h2 className="font-TSlight text-md mt-2 lg:text-base">
-          {test2} .....
-        </h2>
-      </div>
       <Main />
     </>
   )
