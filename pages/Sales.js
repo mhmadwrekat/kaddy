@@ -5,7 +5,7 @@ const Sales = () => {
 
   let counter = salesData.length ;
 
-  let industry = 30 ;
+  let industry = 50 ;
 
   let sale = 15 ;
 
