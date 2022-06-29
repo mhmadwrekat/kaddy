@@ -7,7 +7,7 @@ const Sales = () => {
 
   let industry = 50 ;
 
-  let sale = 19 ;
+  let sale = 20 ;
 
   let free = 9 ;
 
