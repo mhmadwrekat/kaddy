@@ -1,11 +1,19 @@
 [
 {
+        "date":"2022-06-29",
+        "bottle":1,
+        "price":5,
+        "through":"Cella center",
+        "details":"marketing",
+        "account":"✅"
+      },
+{
         "date":"2022-06-28",
         "bottle":2,
         "price":10,
         "through":"Cella center",
-        "details":"",
-        "account":"❌"
+        "details":"marketing",
+        "account":"✅"
       },
 {
         "date":"2022-06-24",
