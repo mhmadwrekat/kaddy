@@ -1,5 +1,13 @@
 [
 {
+        "date":"2022-07-1",
+        "bottle":1,
+        "price":5,
+        "through":"Cella center",
+        "details":"",
+        "account":"❌"
+      },
+{
         "date":"2022-06-29",
         "bottle":1,
         "price":5,
