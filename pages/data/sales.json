@@ -1,5 +1,21 @@
 [
 {
+        "date":"2022-07-16",
+        "bottle":1,
+        "price":5,
+        "through":"Alsalt",
+        "details":"",
+        "account":"❌"
+      },
+{
+        "date":"2022-07-15",
+        "bottle":1,
+        "price":5,
+        "through":"Cella Center",
+        "details":"",
+        "account":"❌"
+      },
+{
         "date":"2022-07-13",
         "bottle":1,
         "price":5,
