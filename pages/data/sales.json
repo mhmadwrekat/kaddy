@@ -1,18 +1,18 @@
 [
 {
         "date":"2022-07-22",
-        "bottle":1,
-        "price":5,
+        "bottle":2,
+        "price":10,
         "through":"Cella Center",
-        "details":"",
-        "account":"❌"
+        "details":"Shatha",
+        "account":"✅"
       },
 {
         "date":"2022-07-16",
         "bottle":1,
         "price":5,
         "through":"Alsalt",
-        "details":"Shatha",
+        "details":"Wrekat",
         "account":"✅"
       },
 {
