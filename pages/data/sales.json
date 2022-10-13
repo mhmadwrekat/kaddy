@@ -1,5 +1,13 @@
 [
 {
+        "date":"2022-10-14",
+        "bottle":4,
+        "price":4,
+        "through":"cousins",
+        "details":"",
+        "account":"❌"
+      },
+{
         "date":"2022-08-29",
         "bottle":1,
         "price":5,
