@@ -1,11 +1,27 @@
 [
 {
+        "date":"2022-11-6",
+        "bottle":13,
+        "price":5,
+        "through":"cousins",
+        "details":"",
+        "account":"❌"
+      },
+{
+        "date":"2022-11-6",
+        "bottle":1,
+        "price":5,
+        "through":"cousins",
+        "details":"",
+        "account":"✅"
+      },
+{
         "date":"2022-10-14",
         "bottle":4,
         "price":16,
         "through":"cousins",
         "details":"",
-        "account":"❌"
+        "account":"✅"
       },
 {
         "date":"2022-08-29",
