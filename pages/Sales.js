@@ -5,11 +5,11 @@ const Sales = () => {
 
   let counter = salesData.length ;
 
-  let industry = 50 ;
+  let industry = 89 ;
 
-  let sale = 34 ;
+  let sale = 35 ;
 
-  let free = 14 ;
+  let free = 15 ;
 
   let available = industry - (sale + free);
 
