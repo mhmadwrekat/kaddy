@@ -1,23 +1,18 @@
 import React from 'react'
-import salesData from './data/sales.json'
-import Nav from '../components/Nav'
-import { useRouter } from 'next/router'
+import HomeData from './Data/HomeData.json'
 
-const Sales = () => {
-  const router = useRouter()
-  let counter = salesData.length
+const Home = () => {
+  let counter = HomeData.length
 
-  let industry = 89
+  let industry = 16
 
-  let sale = 48
+  let sale = 1
 
-  let free = 16
+  let free = 1
 
   let available = industry - (sale + free)
-
   return (
     <>
-      <Nav />
       <section className="flex justify-between bg-gray-200 px-5 py-5 font-mono text-lg font-extrabold lg:mx-20 lg:text-4xl">
         {/* الانتاج */}
         {/* الانتاج */}
@@ -29,10 +24,8 @@ const Sales = () => {
           />
           <p className="mt-2 text-center">{industry}</p>
         </div>
-
         {/* المباااااع */}
         {/* المباااااع */}
-
         <div>
           <img
             src="./assest/sales.png"
@@ -51,10 +44,8 @@ const Sales = () => {
           />
           <p className="mt-2 text-center">{free}</p>
         </div>
-
         {/* المتبقي */}
         {/* المتبقي */}
-
         <div>
           <img
             src="./assest/available.png"
@@ -64,20 +55,10 @@ const Sales = () => {
           <p className="mt-2 text-center">{available}</p>
         </div>
       </section>
-      <section className="mx-5 mt-2 flex justify-end">
-        <button
-          className="rounded bg-gray-800 py-2 px-4 font-extrabold text-white"
-          onClick={() => {
-            router.push('/Groups')
-          }}
-        >
-          Groups
-        </button>
-      </section>
 
       <div class="flex flex-col">
         <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
-          <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8">
+          <div class="inline-block min-w-full sm:px-6 lg:px-8">
             <div class="overflow-hidden">
               <table class="min-w-full text-center">
                 <thead class="border-b bg-gray-800">
@@ -133,7 +114,7 @@ Account
 ✅
 ✔️
 */}
-                  {salesData.map((item) => {
+                  {HomeData.map((item) => {
                     return (
                       <>
                         <tr class="border-b bg-white">
@@ -171,4 +152,5 @@ Account
     </>
   )
 }
-export default Sales
+
+export default Home

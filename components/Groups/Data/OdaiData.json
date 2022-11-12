@@ -1,0 +1,19 @@
+[
+    {
+        "date":"2022-11-7",
+        "bottle":9,
+        "price":45 ,
+        "through":"odai",
+        "details":"",
+        "account":"✅"
+      },
+    {
+            "date":"2022-10-15",
+            "bottle":1,
+            "price":5,
+            "through":"ammar",
+            "details":"",
+            "account":"✅"
+          }
+    ]
+    
