@@ -4,11 +4,11 @@ import SaloonData from './Data/SaloonData.json'
 const Saloon = () => {
   let counter = SaloonData.length
 
-  let industry = 12
+  let industry = 1
 
-  let sale = 0
+  let sale = 1
 
-  let free = 1
+  let free = 0
 
   let available = industry - (sale + free)
   return (

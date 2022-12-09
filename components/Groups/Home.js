@@ -4,7 +4,7 @@ import HomeData from './Data/HomeData.json'
 const Home = () => {
   let counter = HomeData.length
 
-  let industry = 16
+  let industry = 27
 
   let sale = 1
 
