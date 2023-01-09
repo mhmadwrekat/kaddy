@@ -11,7 +11,7 @@ const Sales = () => {
 
   let sale = 48
 
-  let free = 16
+  let free = 17
 
   let available = industry - (sale + free)
 
