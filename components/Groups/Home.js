@@ -8,7 +8,7 @@ const Home = () => {
 
   let sale = 1
 
-  let free = 1
+  let free = 2
 
   let available = industry - (sale + free)
   return (
