@@ -64,7 +64,7 @@ const Sales = () => {
           <p className="mt-2 text-center">{available}</p>
         </div>
       </section>
-      {/* <section className="mx-5 mt-2 flex justify-end">
+       <section className="mx-5 mt-2 flex justify-end">
         <button
           className="rounded bg-gray-800 py-2 px-4 font-extrabold text-white"
           onClick={() => {
@@ -73,7 +73,7 @@ const Sales = () => {
         >
           Groups
         </button>
-      </section> */}
+      </section> 
 
       <div class="flex flex-col">
         <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
