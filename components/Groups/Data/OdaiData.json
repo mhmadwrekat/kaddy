@@ -1,5 +1,13 @@
 [
     {
+        "date":"2023-6-19",
+        "bottle":4,
+        "price":20 ,
+        "through":"odai",
+        "details":"",
+        "account":"✅"
+      },
+    {
         "date":"2022-11-7",
         "bottle":9,
         "price":45 ,
