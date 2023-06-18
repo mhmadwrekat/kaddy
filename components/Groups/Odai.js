@@ -6,7 +6,7 @@ const Odai = () => {
 
   let industry = 18
 
-  let sale = 13
+  let sale = 14
 
   let free = 1
 
